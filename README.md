@@ -6,7 +6,29 @@ A single page web application for watching virtual idol related video clips.
 
 
 ## Component Design
+I took a responsive static design html template and moved it into the Angular application. The next step would be to make it functional. These functions should be broken up into smaller steps.
 
+* User
+  * Login
+  * Registration
+  * Authentication
+* Videos
+  * Upload
+  * Manage
+  * View
+
+I should work on the User system work, so that users can upload videos. I will need a few things.
+
+* User Interface
+* Form Validation
+* Database
+* State Management
+
+* Layout of User Interface (UI)
+  * Navigation Component
+  * Modal Component
+  * Login/Register Components
+  * Tabs Component
 ## Reactive Forms
 
 ## Template Forms
