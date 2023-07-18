@@ -9,7 +9,7 @@ import { ModalService } from 'src/app/services/modal.service';
 })
 export class ModalComponent implements OnInit {
 
-  constructor(private modal: ModalService) {
+  constructor(public modal: ModalService) {
     
   }
 
