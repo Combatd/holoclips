@@ -19,6 +19,17 @@ export class ModalService {
     })
   }
 
+  /**
+   * #unregister
+   * Removes a modal instance that matches a specific modal id.
+   * @param id 
+   */
+  unregister(id: string) {
+    this.modals = this.modals.filter(
+      element => element.id !== id
+    );
+  }
+
   isModalOpen(id: string) : boolean {
     // optional chaining, only progresses past ? if truthy value is returned
     return !!this.modals.find(element => element.id === id)?.visible; // double negation to convert to boolean
