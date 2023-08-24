@@ -54,6 +54,7 @@ I should work on the User system work, so that users can upload videos. I will n
 ## Angular commands
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+`npm run start` also runs the `ng serve` command.
 
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
