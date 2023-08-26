@@ -4,7 +4,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 A single page web application for watching virtual idol related video clips.
 
-
 ## Component Design
 I took a responsive static design html template and moved it into the Angular application. The next step would be to make it functional. These functions should be broken up into smaller steps.
 
@@ -30,8 +29,17 @@ I should work on the User system work, so that users can upload videos. I will n
   * Login/Register Components
   * Tabs Component
 ## Reactive Forms
+Forms can be challenging to create due to various requirements. It is a common but complex task.
+
+* Form Validation - the original purpose of JavaScript, verify correct information
+* Feedback - help the user fill out a form
+* Dynamic Fields - different types of input from names to addresses
+
+* Reactive Forms - Harder to learn, more flexible, scalable, configured through classes
 
 ## Template Forms
+
+* Template Forms - Easier to learn, less flexible, better for small forms, configured through templates
 
 ## Authentication
 
