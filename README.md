@@ -37,6 +37,18 @@ Forms can be challenging to create due to various requirements. It is a common b
 
 * Reactive Forms - Harder to learn, more flexible, scalable, configured through classes
 
+In the latest version of angular (v13), the team has enabled an option called ```noPropertyAccessFromIndexSignature```
+
+In either the tsconfig.json or tsconfig.app.json files, you can set the ```noPropertyAccessFromIndexSignature``` to false inside the compilerOptions object. This should effectively disable the option.
+
+If this option is enabled, access properties with square brackets instead of dot syntax. For example, let's say you were accessing a property like so: form.name
+
+And it produces the following error: ```Property 'name' comes from an index signature, so it must be accessed with ['name']```
+
+Change the syntax to this: ```form['name']```
+
+
+
 ## Template Forms
 
 * Template Forms - Easier to learn, less flexible, better for small forms, configured through templates
