@@ -57,6 +57,15 @@ Change the syntax to this: ```form['name']```
 
 ## Custom Validators
 
+We can use ```AbstractControl``` properties to write validators.
+* valid - The input is valid.
+* invalid - The input is invalid
+* disabled - Ignores validation on the input.
+* touched - The field has been touched.
+* untouched - The field remains untouched.
+* pristine - The value in the field remains unchanged.
+* dirty - The value in the field has been changed.
+
 ## Routing
 
 ## Uploading Files
