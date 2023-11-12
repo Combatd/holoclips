@@ -28,6 +28,7 @@ I should work on the User system work, so that users can upload videos. I will n
   * Modal Component
   * Login/Register Components
   * Tabs Component
+  
 ## Reactive Forms
 Forms can be challenging to create due to various requirements. It is a common but complex task.
 
@@ -47,7 +48,7 @@ And it produces the following error: ```Property 'name' comes from an index sign
 
 Change the syntax to this: ```form['name']```
 
-
+* Presentational Components - Components that focus on the presentation (template) instead of handling business logic
 
 ## Template Forms
 
